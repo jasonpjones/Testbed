@@ -11,18 +11,17 @@
     <script src="src/async_samples.js"></script>
 </head>
 <body>
-    Testbed Home
+    Testbed Home: <span id="testType"></span>
     <div id="result">
 
     </div>
 </body>
 
 <script>
-    // displayResult("foobar");
-    //const $testList = buildList(['one', 'two', 'three']);
-    //displayResult($testList);
 
+    // createPost_Callback(thirdPost, getPosts);
 
+    createPost_Promise(thirdPost).then(getPosts);
 
 </script>
 

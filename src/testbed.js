@@ -35,6 +35,10 @@ function stringy(obj, props) {
     return $result;
 }
 
+function setTitle(title) {
+    $('#testType').text(title);
+}
+
 
 function displayResult(result) {
     $('#result').html(result);
